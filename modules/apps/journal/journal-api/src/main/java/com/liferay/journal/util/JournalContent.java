@@ -46,7 +46,7 @@ public interface JournalContent {
 		String languageId, PortletRequestModel portletRequestModel);
 
 	public String getContent(
-		long groupId, String articleId, String ddmTemplateKey, String viewMode,
+		long gI, String articleId, String ddmTemplateKey, String viewMode,
 		String languageId, PortletRequestModel portletRequestModel,
 		ThemeDisplay themeDisplay);
 

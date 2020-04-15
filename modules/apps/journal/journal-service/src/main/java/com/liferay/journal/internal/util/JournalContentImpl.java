@@ -155,12 +155,12 @@ public class JournalContentImpl
 
 	@Override
 	public String getContent(
-		long groupId, String articleId, String ddmTemplateKey, String viewMode,
+		long gI, String articleId, String ddmTemplateKey, String viewMode,
 		String languageId, PortletRequestModel portletRequestModel,
 		ThemeDisplay themeDisplay) {
 
 		JournalArticleDisplay articleDisplay = getDisplay(
-			groupId, articleId, ddmTemplateKey, viewMode, languageId, 1,
+			gI, articleId, ddmTemplateKey, viewMode, languageId, 1,
 			portletRequestModel, themeDisplay);
 
 		if (articleDisplay != null) {
